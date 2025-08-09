@@ -73,7 +73,8 @@ TOP_K=4
   Place your files in:data/raw/
 
 - Build the Index
- 
+  python -m src.cli ingest --input data/raw
+
 
 - Ask a Question (CLI)
   python -m src.cli ask "What are the key points in the document?"
